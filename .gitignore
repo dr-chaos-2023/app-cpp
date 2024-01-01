@@ -1,0 +1,60 @@
+# Ignore all files in the build directory
+/build/
+
+# Ignore all .o and .a files
+*.o
+*.a
+
+# Ignore all .swp files
+*.swp
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Ignore all .bin files
+*.bin
+
+# Ignore all .exe files
+*.exe
+
+# Ignore all .obj files
+*.obj
+
+# Ignore all .dll files
+*.dll
+
+# Ignore all .lib files
+*.lib
+
+# Ignore all .so files
+*.so
+
+# Ignore all .dylib files
+*.dylib
+
+# Ignore all .dSYM directories
+*.dSYM/
+
+# Ignore all .vscode directories
+.vscode/
+
+# Ignore all .idea directories
+.idea/
+
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all .vscode directories
+.vscode/
+
+# Ignore all .clangd directories
+.clangd/
+
+# Ignore all .vscode directories
+.vscode/
+
+# Ignore all .clangd directories
+.clangd/

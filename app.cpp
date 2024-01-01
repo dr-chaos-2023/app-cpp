@@ -1,9 +1,6 @@
 #include <iostream>
-#include "libs/utils/time/datetime.hpp"
 int main()
 {
-  auto now = DateTime::now();
-  std::cout << now << std::endl;
-  std::cout << now.getDayOfYear() << std::endl;
+  std::cout << "Hello, World" << std::endl;
   return 0;
 }
