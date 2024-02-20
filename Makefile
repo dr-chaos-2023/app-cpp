@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-std=c++23 -Wall -pedantic -O3 -I.
 BUILD_DIR=./build
 APP_NAME=app
-SOURCES := $(shell powershell -File ./get_files.ps1)
+SOURCES := $(shell ./get_files.sh)
 OBJECTS := $(patsubst %.cpp,$(BUILD_DIR)/%.o,$(SOURCES))
 
 all: clean compile link run
