@@ -15,11 +15,11 @@ run: $(BUILD_DIR)/$(APP_NAME)
 	clear && $<
 
 $(BUILD_DIR)/$(APP_NAME): $(OBJECTS)
-	$(CC) -o $@ $^ $(CFLAGS)
+	$(CC) $(CFLAGS) -o $@ $^
 
 $(BUILD_DIR)/%.o: %.cpp | $(BUILD_DIR)
 	mkdir -p $(dir $@)
-	$(CC) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
